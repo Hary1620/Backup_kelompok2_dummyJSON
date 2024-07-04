@@ -5,12 +5,20 @@
     "id": {
       "type": "integer"
     },
-    "token": {
+    "todo": {
       "type": "string"
+    },
+    "completed": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "integer"
     }
   },
   "required": [
     "id",
-    "token"
+    "todo",
+    "completed",
+    "userId"
   ]
 }
